@@ -58,6 +58,7 @@ body{
     background-color: rgb(52, 79, 231);
     border: none;
     color: white;
+    align-text: center;
 }
 
 .controls{
