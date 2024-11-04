@@ -117,7 +117,7 @@ function moveShipRight() {
     }
 }
 document.addEventListener('keyup', e => {
-    if (e.key === 's') {
+    if (e.key === '1') {
         const newScreen = screen.map(subscreen => [...subscreen]);
         deleteBlock(newScreen);
     }
