@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ship Game</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="main.js" defer></script>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -16,13 +17,17 @@
             <button id="newGamebtn">New Game</button>
             <div id="score">Points: <span id="scoreSpan">0</span></div>
             <div class="controls">
-                <p>'S' : Disparar</p>
+                <p>
+                    <i class="bi bi-arrow-left-square-fill"></i>
+                    : Disparar
+                </p>
                 <p> '<-' : Mover Izquierda</p>
                 <p> '->' : Mover Derecha</p>
             </div>
             
         </div>
     </div>
+<script src="main.js" defer></script>
 </body>
 
 </html>
