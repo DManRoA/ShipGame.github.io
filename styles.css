@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#game-screen {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(10, 40px); /* Ajusta según tu diseño */
+    gap: 2px;
+    padding: 10px;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#buttons-score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pixel {
+    width: 40px; /* Ajusta según tu diseño */
+    height: 40px; /* Ajusta según tu diseño */
+    
+}
+
+.block {
+    background-image: url(invader.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ship {
+    background-image: url(spaceship.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#score{
+    border-radius: 5px;
+    background-color: rgb(52, 79, 231);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+
+}
+
+#newGamebtn{
+    border-radius: 5px;
+    background-color: rgb(52, 79, 231);
+    border: none;
+    color: white;
+}
